@@ -1,0 +1,228 @@
+/*Google Fonts*/
+/* Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+/*Bebas Neue*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;500;600;700;800&display=swap'););
+/*Global.Css*/
+*{
+margin: 0%;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Bebas Neue', cursive;;
+/*font-family: 'Montserrat', sans-serif;*/
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/*header part*/
+header{
+    width: 100%;
+    float: left;
+    background: url(../img/bg.png) no-repeat center;
+    background-size: cover;
+    color: white;
+}
+/*Main Header Part*/
+.main-header{
+    width:100% ;
+    float: left;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+.logo-part{
+    width: 50%;
+    float: left;
+    padding:10px ;
+}
+.logo-part img{
+
+}
+.menu-part{
+    width: 50%;
+    float: left;
+}
+.delivery{
+    width: 100%;
+    float: left;
+    text-align: end;
+}
+.delivery img{
+    margin-right: 20px;
+}
+.delivery span{
+    font-family: ;
+}
+.menu{
+    width: 100%;
+    float: left;
+}
+.menu ul{
+    text-align: end;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+}
+.menu a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-left: 23px 0px;
+    color: white;
+}
+/*Hero Part*/
+.hero{
+    width: 100%;
+    float: left;
+}
+.hero-writing-part{
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+}
+.hero-writing-box{
+    font-size: 17px;
+    font-weight: 400;
+    border: 2px dashed;
+    display: inline-block;
+    padding: 7px 20px;
+    color: #333300;
+}
+.hero-heading{
+    font-size: 100px;
+    color: #3d2514;
+    text-shadow: 2px 2px white;
+}
+.hero-subheading{
+    font-size: 75px;
+    color: #3d2514;
+}
+.hero-img-part{
+    width: 50%;
+    float: left;
+}
+.hero-img-part img{
+    position: relative;
+    right: 40px;
+ 
+}
+/*food item part*/
+.food item part{
+
+}
+.img-part1{
+    width: 50%;
+    float: left;
+    padding-top: 99px;
+}
+.img-part1:hover{
+    transform: scale(1.o5);
+    transition: 0.8s;
+}
+.img-part2{
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+    position: relative;
+    right: -40px;
+}
+.img-row1:hover{
+    transform: scale(1.05);
+    transition: 0.8s
+}
+.img-row{
+    width: 100%;
+    float: left;
+    padding-top: 28px;
+}
+.button{
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+.btn-dark{
+    background-color: #ffc045;
+    padding: 11px 44px;
+    font-size: 31px;
+}
+.food item-writing-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 36px;
+}
+.enjoy-part{
+    font-size: 40px;
+    color: #3d2514;
+}
+.writing-para{
+    padding: 24px;
+    font-size: 20px;
+    color: #3d2514;
+}
+/*order section*/
+.box-part{
+    width: 100%;
+    float: left;
+    padding: 90px 0px;
+}
+.box-one{
+    width: 33%;
+    float: left;
+}
+.box-writing-para1{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.box-writing-para1 h3{
+    text-align: center;
+    color: #3d2514;
+    font-size: 31px;
+}
+.box-writing-para1 p{
+    font-size: 20px;
+    color: #3d2514;
+}
+.but-dark{
+    background-color: red;
+    padding: 5px 33px;
+    font-size: 31px;
+}
+.box-two{
+    width: 33%;
+    float: left;
+    position: relative;
+    top: -36px;
+}
+.box-writing-para2{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.box-writing-para2 h3{
+    text-align: center;
+    color: #3d2514;
+    font-size: 310x;
+}
+.box-writing-para2 p{
+    font-size: 20px;
+    color: #3d2514;
+}
+.box-three{
+    width: 33%;
+    float: left;
+}
+.box-writing-para3{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.box-writing-para3 h3{
+    text-align: center;
+    color: #3d2514;
+    font-size: 31px;
+}
